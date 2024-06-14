@@ -1,0 +1,8 @@
+print("calculating the area, volume and perimeter of a cube.")
+width = int(input("Please enter the width of the cube: "))
+area = 6 * (width*width)
+perimeter = 6 * (width+width+width+width)
+volume = width * (width*width)
+print("The area of the cube is: ", area)
+print("The volume of the cube is: ", volume)
+print("The perimeter of the cube is: ", perimeter)
